@@ -1,8 +1,6 @@
 name: Webhook-shitai
 
-on:
-  repository_dispatch:
-    types: [on-demand-test]
+on: repository_dispatch
 
 jobs:
   greet:
